@@ -1,0 +1,97 @@
+<!-- HTML => hypertext markup language -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!--O head:elemento é um contêiner para metadados (dados sobre dados) e é colocado entre a tag <html> e a tag <body>.-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProjetoDev - HTML-CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro"
+    />
+  </head>
+  <!--O body:elemento contém todo o conteúdo de um documento HTML, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.-->
+  <body>
+    <!--O header:elemento representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação.-->
+    <header>
+      <p>
+        <h1>Rodrigo Xavier dos Santos</h1>
+      </p>
+      <p>
+        <h2>Projeto-Dev Kenzie HTML-CSS</h2>
+      </p>
+      <!--A figure:tag especifica conteúdo independente, como ilustrações, diagramas, fotos, listagens de código, etc.-->
+      <figure>
+        <img
+          class="center"
+          src="https://octodex.github.com/images/Fintechtocat.png"
+          alt="Private Investocat"
+        />
+        <!--A figcaption:tag define uma legenda para um elemento <figure> .-->
+        <figcaption>
+          Imagem disponível em:
+          <a href="https://octodex.github.com/fintechtocat/"
+            >octodex.github.com</a
+          >
+        </figcaption>
+      </figure>
+    </header>
+    <!--MAIN: conteúdo principal da página-->
+    <main>
+      <!--A article: tag especifica conteúdo independente e autocontido.-->
+      <article>
+        <p>Tenho 34 anos, bacharel em Sistema de Informação.</p>
+        <p>Estou estudando para me tornar um programador Front-end.</p>
+      </article>
+      <!--Section: define uma seção em um documento.-->
+      <section>
+        <h3>Minhas habilidades</h3>
+
+        <!--UL: Lista desordenada -->
+        <ul>
+          <li><em>HTML</em></li>
+          <li><em>CSS</em></li>
+          <li><em>Javascript</em></li>
+        </ul>
+      </section>
+
+      <h3>Esta são minhas redes sociais</h3>
+
+      <div>
+        <p>
+          <a href="https://github.com/rodrigoxsantos" class="clickme black"
+            >GitHub</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/rodrigoxsantos/"
+            class="clickme blue"
+            >Linkedin</a
+          >
+        </p>
+        <p>
+          <a href="https://twitter.com/rodrigoxs_" class="clickme navy"
+            >Twitter</a
+          >
+        </p>
+
+        <h3>Contatos</h3>
+        <p>
+          <a
+            href="mailto:rodrigomxsantos@gmail.com?subject=Hello%20again"
+            class="clickme danger"
+          >
+            rodrigomxsantos@gmail.com
+          </a>
+        </p>
+
+        <br />
+      </div>
+    </main>
+  </body>
+</html>
